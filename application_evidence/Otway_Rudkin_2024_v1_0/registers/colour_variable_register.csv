@@ -1,0 +1,20 @@
+variable_name,source_variables,derivation_formula,units,manuscript_analytical_role,topology_relationship,status,evidence,notes
+Con15,Con15,direct source column,percentage_points,"Conservative vote share, GE2015",colouring-only,VERIFIED,ssrn-4877434.pdf Figure 6,
+Con17,Con17,direct source column,percentage_points,"Conservative vote share, GE2017",colouring-only,VERIFIED,ssrn-4877434.pdf Figure 6,
+Con19,Con19,direct source column,percentage_points,"Conservative vote share, GE2019",colouring-only,VERIFIED,ssrn-4877434.pdf Figures 4 and 6,
+Con1517,Con1517,direct source column,percentage_point_change,Conservative vote-share change 2015–2017,colouring-only,VERIFIED,ssrn-4877434.pdf Figure 6,
+Con1719,Con1719,direct source column,percentage_point_change,Conservative vote-share change 2017–2019,colouring-only,VERIFIED,ssrn-4877434.pdf Figures 6 and 7,
+Lab15,Lab15,direct source column,percentage_points,"Labour vote share, GE2015",colouring-only,VERIFIED,ssrn-4877434.pdf Figure 6,
+Lab17,Lab17,direct source column,percentage_points,"Labour vote share, GE2017",colouring-only,VERIFIED,ssrn-4877434.pdf Figure 6,
+Lab19,Lab19,direct source column,percentage_points,"Labour vote share, GE2019",colouring-only,VERIFIED,ssrn-4877434.pdf Figures 4 and 6,
+Lab1517,Lab1517,direct source column,percentage_point_change,Labour vote-share change 2015–2017,colouring-only,VERIFIED,ssrn-4877434.pdf Figure 6,
+Lab1719,Lab1719,direct source column,percentage_point_change,Labour vote-share change 2017–2019,colouring-only,VERIFIED,ssrn-4877434.pdf Figure 6,
+leave,leave,direct source column,proportion_0_1,"Estimated Leave vote, 2016 EU Referendum",colouring-only,VERIFIED,ssrn-4877434.pdf Figure 6; §3.3,
+left_behind_index_corrected,population_density; ethnic_group_white_british; qualifications_none; qualifications_level1; qualifications_level2; NSSEC_routine; industry_manufacturing,"density_inverse_01=1-(pd-min(pd))/(max(pd)-min(pd)); below_level3=none+level1+level2; raw=mean(density_inverse_01,white_british,below_level3,routine,manufacturing); index=(raw-min(raw))/(max(raw)-min(raw))",index_0_1,Corrected conventional left-behind index for current paper specification,colouring-only,VERIFIED,ssrn-4877434.pdf §3.3 and Figure 5; merged_data.csv; project design decision 2026-08-10,qualifications_below_a_level exactly matches none+level1+level2 in the final sample to floating-point precision; explicit component formula remains authoritative.
+population_density,population_density,direct source column,residents_per_square_km,Context for urbanity/left-behindedness comparisons,topology-axis also permitted as post-freeze context colouring,VERIFIED,"ssrn-4877434.pdf §§3.3, 4.1",Must not influence radius beyond its declared topology-axis role.
+Winner19,Winner19,direct source column,categorical,Election winner context,context-only,VERIFIED,merged_data.csv; ssrn-4877434.pdf Figure 1 context,
+Country,Country,direct source column,categorical,England/Wales context,context-only,VERIFIED,merged_data.csv; ssrn-4877434.pdf introduction,
+Region,Region,direct source column,categorical,Regional interpretation,context-only,VERIFIED,merged_data.csv,
+conservative_to_labour_swing_2017_2019,UNRESOLVED,UNRESOLVED,percentage_points,Figure 6 panel (l),colouring-only,UNRESOLVED,ssrn-4877434.pdf Figure 6,Exact historical formula not present in supplied code/source fields; do not infer standard swing formula without explicit approval.
+red_wall_membership,UNRESOLVED external/lookup,UNRESOLVED,binary,Figure 15 and ball-level Red Wall proportions,context/colouring-only,UNRESOLVED,ssrn-4877434.pdf Figure 15,"Definition cites Kanagasooriam and Simon (2021), but the constituency lookup used by the paper is not in supplied files."
+kmeans_cluster_6,same topology variables,Base R kmeans on same explanatory variables with k=6; exact seed/nstart/historical assignments unresolved,categorical,Figures 11–12 clustering robustness comparator,post-freeze robustness/context only,UNRESOLVED,ssrn-4877434.pdf §5.1,Do not recreate historical assignments until seed/nstart or accepted replacement specification is approved.

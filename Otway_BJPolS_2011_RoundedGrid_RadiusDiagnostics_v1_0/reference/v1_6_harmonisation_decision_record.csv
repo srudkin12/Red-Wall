@@ -1,0 +1,5 @@
+issue,prior_status,v1_6_resolution,basis
+density_unit,PASS_WITH_UNIT_AUDIT,Convert QS102EW persons per hectare to residents per square kilometre by multiplying by 100.,QS102EW source label is Density (number of persons per hectare); frozen 2021 variable_register.csv records population_density as residents_per_square_km; 1 km^2 = 100 hectares.
+qualifications_apprenticeship,AMBER,Combine 2011 Apprenticeship with 2011 Other qualifications in qualifications_other.,ONS Census 2021 grouped highest-qualification classification combines apprenticeships with Other.
+industry_age_denominator,UNFLAGGED_MISMATCH,Replace KS605EW (age 16-74) with LC6110EW and select All categories: Age 16 and over.,Census 2021 industry uses residents aged 16+ in employment; LC6110EW supplies the corresponding 2011 age-16+ base.
+nssec_age_denominator,AMBER,Replace KS611EW (age 16-74) with LC6114EW and select All categories: Age 16 and over.,Census 2021 NS-SEC uses usual residents aged 16+; LC6114EW supplies the corresponding 2011 age-16+ base.

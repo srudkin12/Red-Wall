@@ -1,0 +1,11 @@
+name: static-repository-audit
+on: [push, pull_request]
+jobs:
+  no-empirical-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: python3 scripts/static_repo_audit.py

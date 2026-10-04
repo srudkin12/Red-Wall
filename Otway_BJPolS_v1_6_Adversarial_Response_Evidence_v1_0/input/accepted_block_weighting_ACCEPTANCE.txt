@@ -1,0 +1,7 @@
+OTWAY_BJPOLS_TARGETED_ADDENDUM_V1_2=PASS
+canonical_validation=PASS
+redwall_count=41
+approved_radius=5.5
+order_majority_frequency=0
+radius_majority_max_frequency=0
+block_majority_frequency=0

@@ -1,0 +1,7 @@
+step,rule,n_before,n_after,n_removed,excluded_units,status,evidence,notes
+1,Read merged_data.csv using CP1252 encoding,,573,0,,VERIFIED,merged_data.csv,84 source columns.
+2,Verify ONSConstID uniqueness,573,573,0,,VERIFIED,merged_data.csv,573 unique stable identifiers; no duplicates.
+3,Verify complete cases on corrected 31 topology variables,573,573,0,,VERIFIED,merged_data.csv,No topology-variable missingness; sample is not inherited from historical 30D complete-case logic.
+4,Explicit substantive analysis-population exclusions: Speaker/former Speaker seats not comparable for main Labour/Conservative electoral colourings,573,571,2,E14000637 Chorley; E14000608 Buckingham,VERIFIED,ssrn-4877434.pdf §3.3; merged_data.csv,"Use stable IDs, not missing-value side effects, in the corrected adapter."
+5,Verify complete cases on corrected 31 topology variables after exclusions,571,571,0,,VERIFIED,merged_data.csv,Final N=571.
+6,Final corrected paper analytical sample,571,571,0,,VERIFIED,project design decision 2026-08-10,Independently declared corrected31D sample contract.

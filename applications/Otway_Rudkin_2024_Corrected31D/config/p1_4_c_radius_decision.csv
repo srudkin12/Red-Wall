@@ -1,0 +1,23 @@
+field,value,status
+application_id,Otway_Rudkin_2024_Corrected31D,USER_APPROVED
+approved_radius,5.50,USER_APPROVED
+decision_date,2026-09-26,USER_APPROVED
+decision_maker,Researcher,USER_APPROVED
+selection_basis,substantively_interpretable_fixed,USER_APPROVED
+interpretation,Radius 5.50 is the explicitly approved fixed radius for Corrected31D. It lies inside the non-binding production review band and preserves a moderate-resolution topology without outcome-based or automatic selection.,USER_APPROVED
+decision_rationale,"The researcher approved 5.50 after the formal side-by-side 30D/31D assessment. At 5.50 Corrected31D has 26 median balls, about 13.82 effective balls, a largest-ball share near 50.2 percent, and mean cover stability near 0.699; no optimality claim is made.",USER_APPROVED
+precision_policy,substantive_rounding,USER_APPROVED
+pipeline_reference_radius,5.48566766108214,FROM_ACCEPTED_P1_4_B
+pipeline_reference_method,non-binding interpolated 50% majority-cover transition from P1.4-B production,FROM_ACCEPTED_P1_4_B
+review_band_lower,4.861620839209092,FROM_ACCEPTED_P1_4_B
+review_band_upper,6.215956326094999,FROM_ACCEPTED_P1_4_B
+review_band_position,INSIDE_REVIEW_BAND,VERIFIED
+diagnostic_audit_filename,Otway_Rudkin_2024_Corrected31D_P1_4_B_production_Audit_20260926_223222.zip,FROM_ACCEPTED_P1_4_B
+diagnostic_audit_sha256,b2e77fcbd78eb048cfccec4f1939787e7b86bfab566b9d14c8fea3a237c58670,FROM_ACCEPTED_P1_4_B
+frozen_input_sha256_expected,543c52e6090af09b51f5617d08ea722d12a6303371cd10caa9538b96ada70f18,FROM_ACCEPTED_P1_4_A
+historical_project_context_radius,4.6,HISTORICAL_PROJECT_CONTEXT_ONLY
+historical_project_context_status,not current approval and not verified historical manuscript main-plot radius,HISTORICAL_PROJECT_CONTEXT_ONLY
+historical_manuscript_main_plot_radius_status,UNRESOLVED_MAIN_PLOT_RADIUS,HISTORICAL_REFERENCE_ONLY
+automatic_selection_performed,FALSE,LOCKED
+optimality_claim,NONE,LOCKED
+notes,Approved after formal side-by-side P1.4-B assessment; topology-only evidence used; electoral/readout variables did not select the radius.,USER_APPROVED

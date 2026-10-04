@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: "Replication code for Electoral Salience without Socio-Demographic Discreteness"
+type: software
+authors:
+  - family-names: Otway
+    given-names: Alex
+  - family-names: Rudkin
+    given-names: Simon
+license: "NOASSERTION"
+repository-code: "https://github.com/srudkin12/Red-Wall"
+
+references:
+  - type: article
+    authors:
+      - family-names: Dłotko
+        given-names: Paweł
+    title: "Ball mapper: A shape summary for topological data analysis"
+    year: 2019
+    journal: "arXiv preprint arXiv:1901.07410"

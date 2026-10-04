@@ -1,0 +1,3 @@
+setting,value,units,status,evidence,notes
+historical_corrected31D_radius,,,NO_VERIFIED_HISTORICAL_EVIDENCE,project design decision 2026-08-10,Corrected31D is a new specification; no historical topology/radius exists.
+current_pipeline_radius,PENDING_P1.4-B_AND_EXPLICIT_USER_DECISION,,NOT_APPLICABLE,TDABM_APPLICATION_HANDOVER_REQUEST_v1_0.md,Run fresh topology-only diagnostics; no automatic selection or optimality claim.

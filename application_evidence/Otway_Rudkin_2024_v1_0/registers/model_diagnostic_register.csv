@@ -1,0 +1,2 @@
+model_id,dependent_variable,predictors,functional_form,estimation_sample,transformations,fitted_value_definition,residual_definition,classification_rule_threshold,paper_figure_role,status,notes
+NONE,,,,,,,,,"K-means is a clustering robustness comparator in §5.1, not a verified TDABM model-criticism specification.",NO_VERIFIED_HISTORICAL_EVIDENCE,NO VERIFIED HISTORICAL MODEL SPECIFICATION FOUND

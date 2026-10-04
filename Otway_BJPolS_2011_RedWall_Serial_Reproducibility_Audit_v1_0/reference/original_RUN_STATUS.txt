@@ -1,0 +1,9 @@
+status=PASS
+generated=2026-10-03 14:12:55 BST
+stage=S2011_D_CANONICAL_TOPOLOGY_AND_RED_WALL_SENSITIVITY
+approved_radius=5.75
+redwall_n=41
+canonical_balls=26
+canonical_edges=94
+canonical_components=2
+canonical_isolates=1
